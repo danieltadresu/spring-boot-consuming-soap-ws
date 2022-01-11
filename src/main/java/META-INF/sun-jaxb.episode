@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.01.11 a las 10:01:29 AM CLST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.dataaccess.com/webservicesserver/">
+    <schemaBindings map="false">
+      <package name="com.example.consumingwebservice.wsdl"/>
+    </schemaBindings>
+    <bindings scd="tns:NumberToWords">
+      <class ref="com.example.consumingwebservice.wsdl.NumberToWords"/>
+    </bindings>
+    <bindings scd="tns:NumberToWordsResponse">
+      <class ref="com.example.consumingwebservice.wsdl.NumberToWordsResponse"/>
+    </bindings>
+    <bindings scd="tns:NumberToDollars">
+      <class ref="com.example.consumingwebservice.wsdl.NumberToDollars"/>
+    </bindings>
+    <bindings scd="tns:NumberToDollarsResponse">
+      <class ref="com.example.consumingwebservice.wsdl.NumberToDollarsResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
